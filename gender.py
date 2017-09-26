@@ -17,4 +17,4 @@ berat = int(input("Masukan Berat Badan Anda :"))
 sepatu = int(input("Masukan Ukuran Sepatu anda :"))
 
 prediciton = clf.predict([tinggi,berat,sepatu])
-print(nama,"Anda adalah seorang : ",Y)
+print(nama,"Anda adalah seorang : ",prediciton)
